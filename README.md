@@ -68,7 +68,7 @@ On peut envisager un cluster hébergé sur le cloud, par exemple un cluster ECS 
 Dans l'état cela se passera mal, car même si on configure notre cloud afin de scaler notre application à la demande, et que notre application est effectivement scalable,
 la limitation journalière de l'API OmDB sera bien trop vite atteinte. 
 À moins de payer un accès à l'API OmDB, dans ce cas Heroku et les autres providers fournissent des stratégies de scaling que l'on configurera à notre sauce.
-Il faudra malheureusement copier à la main le fichier token.json, le flow OAuth de google n'téant pas très souple...
+Il faudra malheureusement copier à la main le fichier token.json, le flow OAuth de google n'étant pas très souple...
 
 ## Ses forces, faiblesses, NEXT STEPS pour la mise en prod.
 ### Forces
