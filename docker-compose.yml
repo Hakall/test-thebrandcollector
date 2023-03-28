@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  server:
+    container_name: brand-collector-api
+    image: node:16.14-alpine
+    command: "npm run deploy"
+    ports:
+      - 3000:3000
+    user: node
+    volumes:
+      - ./:/home/node/app
+    working_dir: /home/node/app
