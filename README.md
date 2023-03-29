@@ -84,7 +84,7 @@ Il faudra malheureusement copier à la main le fichier token.json, le flow OAuth
 - Même sans la limite, on flood beaucoup l'API OMDB avec les même appels.
 
 ### Next Steps
-
+- Créer un Dockerfile afin de déployer proprement notre container sur le Cloud (si jamais on utilise AWS ou GCP)
 - Comme on effectue les mêmes appels OMDB API on pourrait imaginer de mettre en place un système de cache, in-memory si on s'en fiche de la scalabilité, ou via une solution comme Redis ou Memcached qui nous permettra d'être scalable, le cache sera déployé dans le même cluster que l'app (ou les apps, si on scale)
 - Créer la spreadsheet dynamiquement
 - Ajouter linter/prettier avec une configuration communautaire afin de respecter les standards 
